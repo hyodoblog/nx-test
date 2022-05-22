@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "admin": "apps/admin",
-    "nx-test": "apps/nx-test"
+    "nx-test": "apps/nx-test",
+    "server": "apps/server"
   }
 }
