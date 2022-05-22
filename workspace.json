@@ -3,7 +3,6 @@
   "version": 2,
   "projects": {
     "admin": "apps/admin",
-    "nx-test": "apps/nx-test",
-    "nx-test-e2e": "apps/nx-test-e2e"
+    "nx-test": "apps/nx-test"
   }
 }
