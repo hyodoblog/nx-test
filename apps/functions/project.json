@@ -28,9 +28,11 @@
       }
     },
     "serve": {
-      "executor": "@nrwl/node:node",
+      "executor": "@nrwl/workspace:run-commands",
       "options": {
-        "buildTarget": "functions:build"
+        "commands": [
+          "nx build functions && firebase emulators:start --only functions"
+        ]
       }
     },
     "lint": {
