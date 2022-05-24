@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "admin": "apps/admin",
+    "functions": "apps/functions",
     "models": "libs/models",
     "nx-test": "apps/nx-test",
     "server": "apps/server"
