@@ -21,7 +21,8 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "admin:build",
-        "dev": true
+        "dev": true,
+        "port": 3300
       },
       "configurations": {
         "development": {
