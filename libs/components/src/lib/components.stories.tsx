@@ -1,5 +1,5 @@
 import { Story, Meta } from '@storybook/react';
-import { Components, ComponentsProps } from './welcome';
+import { Components, ComponentsProps } from './components';
 
 export default {
   component: Components,
