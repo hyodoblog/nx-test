@@ -3,6 +3,8 @@
   "version": 2,
   "projects": {
     "admin": "apps/admin",
+    "components": "libs/components",
+    "components-e2e": "apps/components-e2e",
     "functions": "apps/functions",
     "models": "libs/models",
     "nx-test": "apps/nx-test"

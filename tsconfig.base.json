@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-test/components": ["libs/components/src/index.ts"],
       "@nx-test/models": ["libs/models/src/index.ts"]
     }
   },
