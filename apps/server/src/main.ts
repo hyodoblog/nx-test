@@ -8,6 +8,12 @@ import { NestFactory } from '@nestjs/core';
 
 import { AppModule } from './app/app.module';
 
+import { User } from "@nx-test/models"
+
+const user: User = {
+  name: "a"
+}
+
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const globalPrefix = 'api';

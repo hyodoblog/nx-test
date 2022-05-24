@@ -9,7 +9,8 @@
       "defaultConfiguration": "production",
       "options": {
         "root": "apps/admin",
-        "outputPath": "dist/apps/admin"
+        "outputPath": "dist/apps/admin",
+        "generatePackageJson": true
       },
       "configurations": {
         "development": {},
