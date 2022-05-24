@@ -5,7 +5,6 @@
     "admin": "apps/admin",
     "functions": "apps/functions",
     "models": "libs/models",
-    "nx-test": "apps/nx-test",
-    "server": "apps/server"
+    "nx-test": "apps/nx-test"
   }
 }
