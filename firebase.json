@@ -1,10 +1,7 @@
 {
   "functions": {
-    "predeploy": [
-      "yarn --cwd \"$RESOURCE_DIR\" lint",
-      "yarn --cwd \"$RESOURCE_DIR\" build"
-    ],
-    "source": "apps/functions",
+    "runtime": "nodejs16",
+    "source": "dist/apps/functions",
     "ignore": [
       "**/.env.*",
       "**/.prettier*",
